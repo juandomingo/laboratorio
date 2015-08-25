@@ -1,6 +1,7 @@
-package practica1e1;
+package practica1;
+import practica1.Estudiante;
 
-public class TestEstudiante {
+public class TestEstudiante{
 	public static void main(String[] args)
 	{
 		//Estudiante[] estudiantes = new Estudiante[5];

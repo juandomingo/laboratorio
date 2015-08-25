@@ -1,7 +1,7 @@
-package practica1e1;
+package practica1;
 
 public class Estudiante {
-	String nombre;
+	 String nombre;
 	String apellido;
 	int legajo;
 	
@@ -11,7 +11,7 @@ public class Estudiante {
 		this.apellido = apellido;
 		this.legajo = legajo;		
 	}
-	/*
+	
 	public String toString()
 	{
 		StringBuffer strBuff = new StringBuffer(this.nombre);
@@ -20,6 +20,6 @@ public class Estudiante {
 		strBuff.append(" ");
 		return strBuff.append(this.legajo).toString();
 	}
-	*/
+	
 	
 }
