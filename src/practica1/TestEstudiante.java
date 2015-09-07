@@ -1,5 +1,6 @@
 package practica1;
 import practica1.Estudiante;
+import java.util.Arrays;
 
 public class TestEstudiante{
 	public static void main(String[] args)
@@ -7,7 +8,7 @@ public class TestEstudiante{
 		//Estudiante[] estudiantes = new Estudiante[5];
 		Estudiante[] estudiantes = {new Estudiante("Antonio","Banderas",114404),
 				new Estudiante("Marco","Antonio",104404),
-				new Estudiante("Jose","García",10004),
+				new Estudiante("Jose","Garcï¿½a",10004),
 				new Estudiante("Gabriel","Saer",114404),
 				new Estudiante("Lykke","Li",114404)
 		};
@@ -20,5 +21,8 @@ public class TestEstudiante{
 			System.out.print(" == mismos da ok   ");
 		if (new Estudiante("BBBBBB","BBBBBB",104404) == new Estudiante("XXXXXX","XXXXXX",104404))
 			System.out.print(" == dist da ok   ");
+		System.out.print(estudiantes);
+		Arrays.sort(estudiantes);
+		System.out.print(estudiantes);
 	}
 }

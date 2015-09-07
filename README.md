@@ -32,3 +32,9 @@ Constructores protegidos :
 En ningún caso se podría tener lo que se plantea sin hacer los import de laboratorio
 SubClase está bien, salvo que haya problemas con la superConstrución implícita
 Otra clase no podría generar nuevos SuperClase, ya que ni hereda ni está en el mismo paquete que SuperClase
+
+
+practica 2
+
+HashSetAgregados cuando usa addAll utiliza superAddAll el cual utiliza dentro el add de HashSetAgregados.
+tanto addAll como add modifican el numero total de agregados, de modo que al agregar la coleccion se suma el numero total de elementos y luego se suma por cada uno en el add.
